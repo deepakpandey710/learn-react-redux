@@ -2,6 +2,59 @@
   text-align: center;
 }
 
+.btn-wrapper button{
+  background-color: red;
+  border: 10px;
+  padding: 10px;
+  margin: 1px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: #333 0px 1px 5px;
+}
+
+.img-wrapper img{
+  width: 100px;
+  /* height: 100px; */
+  margin-top: -10px;
+}
+.cart-wrapper{
+  border: 1px solid #ccc;
+  height: 150px;
+  width: 500px;
+  margin-left: 10%;
+}
+.item{
+  float: left;
+  display: inline-block;
+  height: 70px;
+  width: 120px;  
+  padding: 20px;
+}
+.add-to-cart span{
+  position: absolute;
+  border-radius: 100%;
+  background-color: green;
+  color: white;
+  height: 25px;
+  width: 25px;
+  top: 15px;
+  right: 18px;
+}
+.add-to-cart img{
+  width: 80px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+
+
+
+
+
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
